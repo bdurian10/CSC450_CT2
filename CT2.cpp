@@ -25,7 +25,8 @@ int main()
 		cout << "Your strings, concatenated, are: " + fullString << endl;
 		cout << endl; //print a space between iterations
 	}
-
+	cout << "Press any key to terminate the program" << endl;
+	_getch(); //wait for user input to terminate
 	return 0;
 }
 
